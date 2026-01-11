@@ -1,0 +1,813 @@
+[project]
+name = 'stacks'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.adaptive-authority-suspension-gate]
+path = 'contracts/adaptive-authority-suspension-gate.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.adaptive-quorum-calculator]
+path = 'contracts/adaptive-quorum-calculator.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.adaptive-quorum-scaling-engine]
+path = 'contracts/adaptive-quorum-scaling-engine.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.algorithmic-reputation-decay-engine]
+path = 'contracts/algorithmic-reputation-decay-engine.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.asymmetric-trust-weight-registry]
+path = 'contracts/asymmetric-trust-weight-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.authority-fragmentation-registry]
+path = 'contracts/authority-fragmentation-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.basic-escrow]
+path = 'contracts/basic-escrow.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.behavioral-anomaly-flagger]
+path = 'contracts/behavioral-anomaly-flagger.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.behavioral-commitment-index]
+path = 'contracts/behavioral-commitment-index.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.bilateral-escrow-settlement]
+path = 'contracts/bilateral-escrow-settlement.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.btc-native-yield-vault]
+path = 'contracts/btc-native-yield-vault.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.btc-non-rehypothecation-enforcer]
+path = 'contracts/btc-non-rehypothecation-enforcer.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.btc-yield-proof-of-reserve-registry]
+path = 'contracts/btc-yield-proof-of-reserve-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.bulletin-board]
+path = 'contracts/bulletin-board.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.capital-preservation-gate]
+path = 'contracts/capital-preservation-gate.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.collective-memory-decay-registry]
+path = 'contracts/collective-memory-decay-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.collective-veto-coordination-layer]
+path = 'contracts/collective-veto-coordination-layer.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.commit-reveal-voting-engine]
+path = 'contracts/commit-reveal-voting-engine.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.conditional-execution-router]
+path = 'contracts/conditional-execution-router.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.conditional-sovereignty-controller]
+path = 'contracts/conditional-sovereignty-controller.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.consensus-fallback-resolution-layer]
+path = 'contracts/consensus-fallback-resolution-layer.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.consistency-proof-registry]
+path = 'contracts/consistency-proof-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.context-bound-authorization-gate]
+path = 'contracts/context-bound-authorization-gate.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.contextual-rate-limiting-layer]
+path = 'contracts/contextual-rate-limiting-layer.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.coordination-deadlock-detector]
+path = 'contracts/coordination-deadlock-detector.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.cross-context-intent-router]
+path = 'contracts/cross-context-intent-router.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.cross-contract-permission-oracle]
+path = 'contracts/cross-contract-permission-oracle.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.cross-domain-consensus-anchor]
+path = 'contracts/cross-domain-consensus-anchor.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.cross-epoch-state-bridge]
+path = 'contracts/cross-epoch-state-bridge.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.custody-boundary-marker]
+path = 'contracts/custody-boundary-marker.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.dao-governance]
+path = 'contracts/dao-governance.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.dao-payment-splitter]
+path = 'contracts/dao-payment-splitter.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.dao-proposal]
+path = 'contracts/dao-proposal.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.dao-treasury]
+path = 'contracts/dao-treasury.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.decentralized-task-registry]
+path = 'contracts/decentralized-task-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.decision-reversal-latency-buffer]
+path = 'contracts/decision-reversal-latency-buffer.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.delayed-finality-commitment-engine]
+path = 'contracts/delayed-finality-commitment-engine.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.delegated-permission-registry]
+path = 'contracts/delegated-permission-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.delegation-revocation-latency-gate]
+path = 'contracts/delegation-revocation-latency-gate.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.distributed-checkpoint-coordinator]
+path = 'contracts/distributed-checkpoint-coordinator.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.distributed-intent-quorum]
+path = 'contracts/distributed-intent-quorum.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.dynamic-threshold-consensus-engine]
+path = 'contracts/dynamic-threshold-consensus-engine.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.emergency-shutdown-controller]
+path = 'contracts/emergency-shutdown-controller.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.emergent-behavior-observation-layer]
+path = 'contracts/emergent-behavior-observation-layer.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.escrow-arbitration]
+path = 'contracts/escrow-arbitration.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.escrow-arbitration-registry]
+path = 'contracts/escrow-arbitration-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.execution-context-fingerprint-registry]
+path = 'contracts/execution-context-fingerprint-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.execution-liveness-monitor]
+path = 'contracts/execution-liveness-monitor.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.execution-priority-auction-primitive]
+path = 'contracts/execution-priority-auction-primitive.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.existential-protocol-watchdog]
+path = 'contracts/existential-protocol-watchdog.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.factory-instance]
+path = 'contracts/factory-instance.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.factory-registry]
+path = 'contracts/factory-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.failure-domain-isolation-registry]
+path = 'contracts/failure-domain-isolation-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.flash-loan]
+path = 'contracts/flash-loan.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.governance-action-timebox]
+path = 'contracts/governance-action-timebox.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.governance-friction-regulator]
+path = 'contracts/governance-friction-regulator.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.governance-liveness-failsafe]
+path = 'contracts/governance-liveness-failsafe.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.governance-parameter-store]
+path = 'contracts/governance-parameter-store.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.governance-timelock]
+path = 'contracts/governance-timelock.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.governance-weight-normalization-engine]
+path = 'contracts/governance-weight-normalization-engine.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.immutable-audit-log-engine]
+path = 'contracts/immutable-audit-log-engine.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.immutable-message-registry]
+path = 'contracts/immutable-message-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.influence-decay-weight-engine]
+path = 'contracts/influence-decay-weight-engine.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.insurance-claims]
+path = 'contracts/insurance-claims.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.insurance-pool]
+path = 'contracts/insurance-pool.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.intent-broadcast-matching-layer]
+path = 'contracts/intent-broadcast-matching-layer.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.intent-collision-detector]
+path = 'contracts/intent-collision-detector.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.intent-entropy-analyzer]
+path = 'contracts/intent-entropy-analyzer.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.intent-finality-window]
+path = 'contracts/intent-finality-window.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.inter-contract-trust-boundary-registry]
+path = 'contracts/inter-contract-trust-boundary-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.interaction-cost-calibration-layer]
+path = 'contracts/interaction-cost-calibration-layer.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.kyc-registry]
+path = 'contracts/kyc-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.latent-consensus-detection-layer]
+path = 'contracts/latent-consensus-detection-layer.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.light-flash-loan]
+path = 'contracts/light-flash-loan.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.long-horizon-accountability-ledger]
+path = 'contracts/long-horizon-accountability-ledger.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.lottery]
+path = 'contracts/lottery.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.membership-nft]
+path = 'contracts/membership-nft.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.membership-token]
+path = 'contracts/membership-token.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.meta-transaction]
+path = 'contracts/meta-transaction.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.milestone-escrow]
+path = 'contracts/milestone-escrow.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.minimal-disclosure-yield-ledger]
+path = 'contracts/minimal-disclosure-yield-ledger.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.multi-actor-consensus-threshold]
+path = 'contracts/multi-actor-consensus-threshold.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.multi-phase-commitment-orchestrator]
+path = 'contracts/multi-phase-commitment-orchestrator.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.multi-sig-authorization-vault]
+path = 'contracts/multi-sig-authorization-vault.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.multi-sig-wallet]
+path = 'contracts/multi-sig-wallet.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.nft-atomic-swap]
+path = 'contracts/nft-atomic-swap.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.nft-lottery]
+path = 'contracts/nft-lottery.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.norm-propagation-observer]
+path = 'contracts/norm-propagation-observer.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.on-chain-board]
+path = 'contracts/on-chain-board.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.onchain-bounty-distribution]
+path = 'contracts/onchain-bounty-distribution.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.onchain-governance-registry]
+path = 'contracts/onchain-governance-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.onchain-identity-registry]
+path = 'contracts/onchain-identity-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.operator-bond-registry]
+path = 'contracts/operator-bond-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.participation-fatigue-detector]
+path = 'contracts/participation-fatigue-detector.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.participation-throttle-coordinator]
+path = 'contracts/participation-throttle-coordinator.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.payment-splitter]
+path = 'contracts/payment-splitter.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.payroll-escrow]
+path = 'contracts/payroll-escrow.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.payroll-stable-token]
+path = 'contracts/payroll-stable-token.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.permission-gradient-engine]
+path = 'contracts/permission-gradient-engine.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.permissioned-mint]
+path = 'contracts/permissioned-mint.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.permissionless-appeal-escalator]
+path = 'contracts/permissionless-appeal-escalator.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.polling-system]
+path = 'contracts/polling-system.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.post-execution-accountability-window]
+path = 'contracts/post-execution-accountability-window.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.predictive-market-resolution-engine]
+path = 'contracts/predictive-market-resolution-engine.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.progressive-disclosure-engine]
+path = 'contracts/progressive-disclosure-engine.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.proof-of-attendance-ledger]
+path = 'contracts/proof-of-attendance-ledger.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.protocol-evolution-intent-log]
+path = 'contracts/protocol-evolution-intent-log.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.protocol-intent-historical-index]
+path = 'contracts/protocol-intent-historical-index.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.protocol-obsolescence-detector]
+path = 'contracts/protocol-obsolescence-detector.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.protocol-resilience-scoreboard]
+path = 'contracts/protocol-resilience-scoreboard.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.protocol-sunset-scheduler]
+path = 'contracts/protocol-sunset-scheduler.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.public-donation-treasury]
+path = 'contracts/public-donation-treasury.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.rate-limited-call]
+path = 'contracts/rate-limited-call.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.rate-limited-interaction-guard]
+path = 'contracts/rate-limited-interaction-guard.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.rate-limiter]
+path = 'contracts/rate-limiter.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.reputation-registry]
+path = 'contracts/reputation-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.reputation-score]
+path = 'contracts/reputation-score.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.reputation-scoring-ledger]
+path = 'contracts/reputation-scoring-ledger.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.reputation-system]
+path = 'contracts/reputation-system.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.resource-usage-meter]
+path = 'contracts/resource-usage-meter.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.risk-budget-meter]
+path = 'contracts/risk-budget-meter.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.role-emergence-tracker]
+path = 'contracts/role-emergence-tracker.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.salary-token]
+path = 'contracts/salary-token.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.scrow-arbitration-registr]
+path = 'contracts/scrow-arbitration-registr.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.self-healing-state-registry]
+path = 'contracts/self-healing-state-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.semantic-version-governance-gate]
+path = 'contracts/semantic-version-governance-gate.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.sequential-decision-lock]
+path = 'contracts/sequential-decision-lock.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.shared-resource-fairness-enforcer]
+path = 'contracts/shared-resource-fairness-enforcer.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.signal-noise-separation-layer]
+path = 'contracts/signal-noise-separation-layer.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.simple-nft]
+path = 'contracts/simple-nft.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.simple-token]
+path = 'contracts/simple-token.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.state-divergence-detector]
+path = 'contracts/state-divergence-detector.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.state-snapshot-attestation-registry]
+path = 'contracts/state-snapshot-attestation-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.state-transition-invariant-guard]
+path = 'contracts/state-transition-invariant-guard.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.stx-custodial-vault]
+path = 'contracts/stx-custodial-vault.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.subscription-access-controller]
+path = 'contracts/subscription-access-controller.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.sybil-resistance-signal-registry]
+path = 'contracts/sybil-resistance-signal-registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.systemic-risk-accumulation-meter]
+path = 'contracts/systemic-risk-accumulation-meter.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.temporal-authority-delegation-layer]
+path = 'contracts/temporal-authority-delegation-layer.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.temporal-consistency-enforcer]
+path = 'contracts/temporal-consistency-enforcer.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.time-lock]
+path = 'contracts/time-lock.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.time-locked-capital-vault]
+path = 'contracts/time-locked-capital-vault.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.time-weighted-intent-amplifier]
+path = 'contracts/time-weighted-intent-amplifier.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.token-faucet]
+path = 'contracts/token-faucet.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.token-vesting]
+path = 'contracts/token-vesting.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.token-vesting-schedule]
+path = 'contracts/token-vesting-schedule.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.treasury-multisig]
+path = 'contracts/treasury-multisig.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.trust-decay-reputation-engine]
+path = 'contracts/trust-decay-reputation-engine.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.trust-minimized-loan-origination]
+path = 'contracts/trust-minimized-loan-origination.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.twap-oracle]
+path = 'contracts/twap-oracle.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.upgradeable-proxy]
+path = 'contracts/upgradeable-proxy.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.value-alignment-signal-engine]
+path = 'contracts/value-alignment-signal-engine.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.voting-contract]
+path = 'contracts/voting-contract.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.whitelist-access]
+path = 'contracts/whitelist-access.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.yield-claim-window]
+path = 'contracts/yield-claim-window.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.yield-epoch-settlement]
+path = 'contracts/yield-epoch-settlement.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.yield-liveness-watchdog]
+path = 'contracts/yield-liveness-watchdog.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.yield-privacy-mixer-anchor]
+path = 'contracts/yield-privacy-mixer-anchor.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.yield-slashing-failsafe]
+path = 'contracts/yield-slashing-failsafe.clar'
+clarity_version = 3
+epoch = 'latest'
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
+[repl.remote_data]
+enabled = false
+api_url = 'https://api.hiro.so'
